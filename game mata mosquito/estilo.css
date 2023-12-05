@@ -1,0 +1,77 @@
+html {
+	cursor:url(imagens/coracao_cheio.png);30 30 auto
+
+
+}
+
+
+body { 
+	background-image:url(imagens/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+
+ }
+
+
+
+.mosquito1 {
+	width: 0.5px;
+	height: 0.5px;
+
+
+ } 
+
+
+ .mosquito2 {
+	width: 100px;
+	height: 100px;
+
+
+ }
+
+
+ .mosquito3 {
+	width: 20px;
+	height: 20px;
+
+
+ } 
+
+.ladoA{ 
+	transform: scaleX(1);
+
+ } 
+
+ .ladoB{ 
+	transform: scaleX(-1);
+
+ } 
+
+ .painel{
+ 	position: absolute;
+ 	width: 190px;
+ 	padding: 10px;
+ 	left: 0px;	
+ 	bottom: 0px;
+ 	border-top: 1px solid #fff;
+ 	background-color: #fff;
+ 	opacity: 0.7;
+ } 
+
+
+
+.vida{
+	float: left;
+
+} 
+.cronometro{ 
+	float: left;
+ 	font-size: 20;
+ 	font-weight: bold;
+
+ } 
+
+ .mb-2{ 
+ 	text-align: right;
+  }
